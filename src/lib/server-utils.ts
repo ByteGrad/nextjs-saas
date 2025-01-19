@@ -23,5 +23,10 @@ export async function checkAuthenticationAndMembership(waitMs = 0) {
     return redirect("/");
   }
 
+  // redirect to remove query params
+  if (membership && membership.status === "active") {
+    return redirect("/app/dashboard");
+  }
+
   return user;
 }
