@@ -71,8 +71,8 @@ export async function createCheckoutSession() {
       },
     ],
     mode: "payment",
-    success_url: "http://localhost:3000/app/dashboard?payment=success",
-    cancel_url: "http://localhost:3000",
+    success_url: `${process.env.CANONICAL_URL}/app/dashboard?payment=success`,
+    cancel_url: `${process.env.CANONICAL_URL}`,
   });
 
   redirect(session.url!);
