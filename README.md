@@ -1,4 +1,4 @@
-Full YouTube tutorial here: https://youtu.be/xXpPH50A44I
+Full YouTube tutorial here: [https://youtu.be/xXpPH50A44I](https://www.youtube.com/watch?v=ERGkwdyjtcM)
 
 IMPORTANT: This tutorial is meant to be an introduction to Next.js & SaaS. There may be additional (security) considerations that need to be taken into account when deploying a production application. We discuss some of these in the video itself, but there is also a more complete React & Next.js course here: https://bytegrad.com/courses/professional-react-nextjs
 
